@@ -435,21 +435,7 @@ The central experimental question is whether the system can move from left to ri
 
 The conceptual target can also be represented as a search for the lowest semantic workload that still satisfies the required quality threshold:
 
-``` text
-Application
-quality
-  ^
-  |                         ───────────── acceptable quality
-  |                    ____/
-  |                ___/
-  |             __/
-  |          __/
-  |_________/________________________________> Semantic computation
-           ^
-           |
-           Minimum Semantic Computation (MSC)
-           that satisfies the quality threshold
-```
+![Minimum Semantic Computation (MSC)](MSC.png)
 
 This is a conceptual model rather than a claim that the relationship will always form a smooth curve. Real systems may have capability thresholds, model-specific discontinuities, and task-dependent behavior. The purpose of benchmarking is to find the practical minimum empirically.
 
